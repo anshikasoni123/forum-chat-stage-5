@@ -12,7 +12,6 @@ myVideo.muted = true;
 let myStream;
 
 navigator.mediaDevices.getUserMedia({
-    video:true,
     audio:true
 })
 .then((stream) => {
